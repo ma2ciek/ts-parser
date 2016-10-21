@@ -1,0 +1,1 @@
+## Typescript parser written for educational purposes.

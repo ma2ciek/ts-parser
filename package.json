@@ -1,0 +1,27 @@
+{
+  "name": "parser",
+  "version": "0.0.1",
+  "description": "Small parser written for education purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.ts --require ts-node/register src/*.ts"
+  },
+  "keywords": [
+    "parser",
+    "typescript"
+  ],
+  "author": "Maciej Bukowski <ma2ciek@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.45",
+    "tslint": "^4.0.0-dev.0"
+  },
+  "dependencies": {
+    "json-pretty": "0.0.1",
+    "mocha": "^3.1.2",
+    "ts-node": "^1.4.3",
+    "typescript": "^2.1.0-dev.20161013",
+    "verbal-expressions": "^0.2.1"
+  }
+}
